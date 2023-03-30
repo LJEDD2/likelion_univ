@@ -34,7 +34,7 @@ loading : 이미지 로딩 방식
 
 ---
 
-# 1주차 과제 - HTML 활용하기 
+### 1주차 과제 - HTML 활용하기 
 
 > **1. <head>의 <meta> 태그와 Meta Data는 무엇을 의미할까요?**
 - `<meta charset=’utf-8’>`의 의미에 대해 알아보기

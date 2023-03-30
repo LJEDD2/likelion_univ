@@ -5,7 +5,7 @@ LikeLion univ at. BUFS
 ---
 
 ## week 1 
-Offiline Session 
+### Offiline Session 
 
 2023-03-27 18:00 ~ 20:00
 - Web이란? 
@@ -17,7 +17,7 @@ Offiline Session
 2023-03-30 18:00 ~ 20:00
 HTML 태그    
 
-> ✔ img 태그
+> **✔ img 태그**
 
 - img는 HTML 문서에 이미지를 삽입하는 태그이다. 주요 속성은 다음과 같다.
 ```
@@ -28,7 +28,7 @@ height : 이미지의 세로 크기
 loading : 이미지 로딩 방식
 ```
 
-> ✔ target 속성과 속성값    
+> **✔ target 속성과 속성값**    
 - <a> 태그의 또 다른 속성으로는 target 속성이 있다. 
 - 이 속성은 클릭으로 링크를 오픈할 때 어디에서 오픈할지 정하는 속성이다.
 - 제일 많이 쓰는 속성 값으로는 "_self"와 "_blank"가 있다.

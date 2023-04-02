@@ -1,16 +1,15 @@
 # 1주차 과제  
 
-> **실제 웹페이지를 클론 코딩 하기**   
+> **1. 실제 웹페이지를 클론 코딩 하기**   
 
 - HTML 만 활용해서 아디다스의 상품 Description 페이지 최대한 유사하게 만들어 보기
 - `<table>` 태그와 그와 연관된 태그들 + `<ul><li>` 같이 리스트 태그들에 대해서 학습 해보고 직접 구현
 
----
-
 클론 코딩한 페이지 [adidas](https://www.adidas.com/us/supernova-2.0-x-marimekko-running-shoes/HQ8919.html)
 
+<br>
 
-> **Meta Data는 무엇을 의미할까요?**
+> **2. Meta Data는 무엇을 의미할까요?**
 [MetaData란?](https://ko.wikipedia.org/wiki/%EB%A9%94%ED%83%80%EB%8D%B0%EC%9D%B4%ED%84%B0)
 - 어떤 목적을 가지고 만들어진 데이터
 - 데이터에 관한 구조화된 데이터로 다른 데이터를 설명하는 데이터이다.    

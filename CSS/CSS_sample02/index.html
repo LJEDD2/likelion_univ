@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="kr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <title>망각의 즐거움</title>
+    <link rel="stylesheets" chref="style.css" />
+
+    <!--b. 구글 폰트 (Internal)-->
+    <!-- https://oggwa.tistory.com/67 -->
+
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Nanum+Gothic&display=swap');
+        * {
+            background-image: url(C:\Users\sanga\Desktop\likelion_univ\CSS\CSS_sample02\images\background.png);
+        }
+        .Nanum_Gothic{
+            font-family: 'Nanum Gothic', sans-serif;
+        }
+       .p1 {
+        color : blue; 
+        font-size: small;
+       }
+       .bt{
+        color : red;
+       }
+       .content1, .content2{
+            font-family: 'Nanum Gothic', sans-serif;
+            font-size: medium;
+            font-weight: 600;
+        }
+    </style>
+
+    <!-- a. css는 external 방식 : 모든 코드를 .css파일에 저장-->
+    
+    
+
+</head>
+<body>
+    <header>
+        <h1 class = "Nanum_Gothic"> 망각의 즐거움</h1>
+        <span style="font-weight: 600;">기억을 다스리는 자가 행복해진다.</span>
+    </header>
+    <br>
+    
+    <main>
+        <img src="./images/book.jpg" alt="book_IMG" />
+        <hr>
+        <div>
+            <h3>책소개</h3>
+            <p>우리는 천재들의 기억력을 부러워한다. 정보가 쏟아지는 시대, 기억할 것이 넘쳐나는 요즘 같은 세상에서는 많이 기억하는 자가 유리한 듯 보인다. 그리고 대부분 ‘망각’이란 우리가 소중히 여기는 뇌의 능력을 퇴보시키는 것으로 여긴다. 하지만 망각은 생존에 유리한 유전자를 선택하면서 진화해온 인간에게 남아 있는 긍정적 능력이다. 망각은 스트레스로부터 우리를 보호하기 위해 생존에 유리한 경향으로 학습되고 유전되어왔다. 지식과 마찬가지로 망각은 생존을 위해 유익할 뿐만 아니라 반드시 필요하다.</p>
+            <span class = "p1">책의 일부 내용을 미리 읽어보실 수 있습니다</span>
+            
+            <button id = "bt">미리보기</button>
+            <br>
+            <a href="http://www.yes24.com/Product/Goods/9009974">책 구매하기</a>
+        </div>
+        <hr>
+        <div>
+            <h3>목차</h3>
+
+            <ol>
+                <li class = "content1">생각은 우리를 배신한다</li>
+                <ul>
+                    <li>생각하는 고통</li>
+                    <li>당신은 생각을 소유하려 하고 있다.</li>
+                </ul>
+                <br>
+                <li class = "content2">망각만을 기억하라</li>
+                <ul>
+                    <li>우리에게는 망각 유전자가 있다</li>
+                    <li>망각이 필요한 사람</li>
+                    <li>망각은 행복이다</li>
+                    <li>고통도 망각될 수 있다</li>
+                    <li>한 번에 하나만 주의하라</li>
+                    <li>나머지는 완전히 포기하라</li>
+                </ul>
+            </ol>
+        </div>
+    </main>
+</body>
+</html>

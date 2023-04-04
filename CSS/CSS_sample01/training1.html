@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        /* Internal 방식으로 CSS를 작성합니다. */
+        h1 {
+            color : mediumaquamarine;
+            margin-left: 50px;
+        }
+
+        /* id는 샾  */
+        #H2 {
+            color: royalblue;
+        }
+        /* class는 닷 */
+        .H3 {
+            color: gray;
+        }
+
+        /* 그룹핑 */
+        h4, h5{
+            color:darksalmon;
+        }
+
+        /* 부모 - 자식 순으로 접근  */
+        div p {
+            color : greenyellow;
+        }
+    </style>
+    <title>Document</title>
+</head>
+<body>
+    <h1>안녕하세요 이정은입니다.</h1>
+    <!-- TODO 1 : Simple Selector 방식으로 색을 바꿔 보세요 -->
+    <h1>This is Simple Selector</h1>
+    
+    <!-- TODO 2 : ID Selector 방식으로 색을 바꿔 보세요 -->
+    <h2 id = "H2">This is ID Selector</h2>
+
+    <!-- TODO 3 : Class Selector 방식으로 색을 바꿔 보세요 -->
+    <h3 class = "H3">This is Class Selector</h3>
+
+    <!-- TODO 4 : CSS Grouping Selector 방식으로 색을 바꿔 보세요 -->
+    <h4>This is CSS Grouping Selector 1</h4>
+    <h5>This is CSS Grouping Selector 2</h5>
+
+    <!-- TODO 5 : Descendant Selector 방식으로 색을 바꿔 보세요 -->
+    <div>
+        <p>This is Descendant Selector</p>
+    </div>
+</body>
+</html>

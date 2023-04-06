@@ -22,3 +22,6 @@ Class : 고유 값은 아니기에 여러가지 상황에서 여러 개의 스�
 
 
 ## Session 04  
+
+- git pull 업데이트
+- git switch 

@@ -53,3 +53,62 @@ Class : 고유 값은 아니기에 여러가지 상황에서 여러 개의 스�
         padding : top right/left bottom
         padding : top right bottom left
     ```
+
+ > **flex Box - justify-content, align-items**
+
+- `flexBox`란? 
+    - display, float, position과 같은 css 속성들로 레이아웃을 구현하는 게 몹시 복잡하거나 어려울 때가 있다. 
+    - 그 한계를 극복하기 도입된 기능. 
+    - flexible box, flexbox라고도 부른다.
+    - 레이아웃 배치 기능에 중점을 맞추어 고안되었기 때문에 기본 방식보다 훨씬 더 수월하게 퍼블리싱이 가능하다. 
+    ```
+    display:flex; 
+    display:inline-flex;  
+
+    -> 속성값으로 flex를 사용하면 block 속성의 flex container를 정의하고, 
+    inline-flex를 사용하면 inline 속성의 flex-container를 정의한다. 
+    정렬이 가리키는 대상은 내부 item이 아닌 container. 
+    ```
+
+- `justify -content` : ( 가로축 - 중심축 )
+    - 가로 축을 기준으로 좌우 정렬 
+    ```
+    flex-start (default) 
+    - 요소들을 컨테이너의 왼쪽으로 정렬
+
+	flex-end 
+    - 요소들을 컨테이너의 우측으로 정렬
+
+	center 
+    - 요소들을 컨테이너의 중앙으로 정렬
+
+	space-between 
+    - 요소들 사이에 동일한 간격
+
+	space-around 
+    - 요소들 주위에 동일한 간격
+
+	space-evenly(FireFox Only) 
+    - 첫번째로 오는 정렬 대상 전에 두개의 인접한 정렬 대상 사이의 간격과 
+    마지막 정렬 대상 이후의 간격이 같도록 항목이 분산. 
+
+    ```
+- `align-items` : ( 세로축 - 교차축 )
+    - 세로 축을 기준으로 정렬
+
+    ```
+    flex-start	
+    - 컨테이너의 최상단으로 정렬
+
+    flex-end
+    - 컨테이너의 최하단으로 정렬
+
+    center
+    - 컨테이너의 세로 축의 중앙으로 정렬
+
+    baseline
+    - 컨테이너의 시작위치에 정렬
+
+    stretch(default)
+    - 컨테이너에 맞게 늘림
+    ```

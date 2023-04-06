@@ -1,0 +1,48 @@
+body {
+    background-color: #FF6347;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    /* 가로와 세로를 기준으로 정렬  */
+    justify-content: center;
+    align-items: center;
+}
+
+
+html, body {
+    margin: 0;
+    padding: 0;
+
+    /* 특정 요소가 박스를 넘어 가면 요소를 숨긴다, 
+    그대로 보여주기는 visible */
+    overflow-x: hidden;
+}
+
+.bigSqare {
+    border: black 1px solid;
+    background-color: #F5DEB3;
+    display: flex;
+
+    /* 열 방향으로 */
+    flex-direction: column;
+
+    justify-content: space-around;
+    align-items: center;
+    
+    width: 30vw;
+    height: 30vw;
+}
+
+.smallSqurae {
+    width: 25%;
+    height: 25%;
+    border: white 1px solid;
+    background-color: #008080;
+}
+
+.middleSquare {
+    width: 75%;
+    height: 25%;
+    border: white 1px dashed;
+    background-color: #008080;
+}

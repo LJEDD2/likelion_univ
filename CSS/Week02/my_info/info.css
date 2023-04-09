@@ -28,9 +28,6 @@ a {
 	text-decoration: none;
 	color: inherit;
 }
-body {
-	
-}
 
 .sidebar {
 	background-color: rgb(255, 231, 188);
@@ -97,6 +94,7 @@ body {
 	text-align: center;
 }
 
+
 .contents {
 	background-color: #ddd;
 	position: absolute;
@@ -123,22 +121,67 @@ body {
 	font-style: bold;
 }
 .intro {
-    padding: 15vh 10vw 0;
-    height: 90vh;
+    padding: 5vh 10vw 0;
+    height: 100vh;
 }
-.main-project, .activities , .hobby, .goals {
-	padding: 15vh 10vw 0;
+.main-project{
+	padding: 12vh 10vw 0;
+	width: 60vw;
+	height: 150vh;
+    float : left;
+}
+.activities{
+	padding: 10vh 10vw 0;
+	width: 60vw;
+	height: 100vh;
+    float : left;
+}
+.hobby {
+	padding: 10vh 10vw 0;
 	width: 60vw;
 	height: 130vh;
     float : left;
+}
+.goals{
+	padding: 15vh 10vw 0;
+	width: 60vw;
+	height: 100vh;
+    float : left;
+
 }
 
 .intro {
 	background-color:  rgb(255, 245, 243);
 }
+
+.intro .my_image {
+	margin: 70px auto 0;
+	/* width: 60px;	 */
+    list-style:none;
+}
+
+.intro .my_image li {
+    float: left;
+	margin-right: 50px;
+	text-align: center;
+}
+
+.activities  li {
+    float: left;
+	margin-right: 200px;
+}
+.activities  li  p {
+	font-size: 30px;
+}
+
+.round {
+	border-radius: 95px
+}
 .main-project {
 	background-color : white;
 }
+
+
 .activities {
 	background-color: rgb(255, 245, 243) ;
 }

@@ -1,23 +1,157 @@
 * {
-    margin : 50; 
-    padding : 50;
-}
-
-.wal {
-    float : left;
-    width: 150px;
-    height: 150;
-    margin-right: 30px;
-}
-
-body{
-    margin : 0 auto;
-    width: 600px;
-}
-
-p {
-    font-size: smaller;
     font-family: 'Noto Sans KR', sans-serif;
-    line-height: 2em;
+}
+/* CSS Reset */
+html, body, h1, h2 {
+	margin: 0;
+    overflow-x: hidden;
 }
 
+ul, li, p {
+	list-style-type: none;
+	padding: 0;
+}
+
+/* Commons */
+.clearfix {
+	content: ' ';
+	display: block;
+	clear: both;
+}
+
+/* Code */
+html {
+	scroll-behavior: smooth;
+}
+
+a {
+	text-decoration: none;
+	color: inherit;
+}
+body {
+	
+}
+
+.sidebar {
+	background-color: rgb(255, 231, 188);
+	
+	text-align: center;
+    font-size : small;
+	width: 20vw;
+	
+	position: fixed;
+	top: 0;
+	left: 0;
+	bottom: 0;
+}
+
+.cover {
+	width: 150px;
+	margin-top: 15%;
+	border-radius: 100px;
+}
+
+.menu {
+	margin: 80px auto 0;
+	width: 300px;
+	
+	font-size: 40px;
+}
+
+.menu li a {
+	margin: 30px 0;
+	
+	display: inline-block;
+	
+	position: relative;
+}
+
+.menu li a::after {
+	content: ' ';
+	
+	background-size: 40px;
+	background-repeat: repeat-X;
+	
+	position: absolute;
+	bottom: -40px;
+	right: 0;
+	left: 0;
+	height: 50px;
+	margin-right: 300px;
+	
+	transition: margin 1.2s;
+}
+
+.menu li a:hover::after {
+	margin: 0;
+}
+
+.icons {
+	margin: 100px auto 0;
+	width: 350px;	
+    list-style:none;
+}
+.icons li {
+    float: left;
+	margin-left: 40px;
+	text-align: center;
+}
+
+.contents {
+	background-color: #ddd;
+	position: absolute;
+	
+	left: 20vw;
+	right: 20;
+	top: 0;
+	bottom: -200vh;
+}
+
+.wrapper h1 {
+	font-size: 70px;
+	margin-bottom: 30px;
+}
+.wrapper h2 {
+	font-size: 30px;
+	margin-bottom: 15px;
+}
+
+.wrapper p {
+	margin: 30px 0 30px;
+	line-height: 1.6;
+	font-size: 20px;
+	font-style: bold;
+}
+.intro {
+    padding: 15vh 10vw 0;
+    height: 90vh;
+}
+.main-project, .activities , .hobby, .goals {
+	padding: 15vh 10vw 0;
+	width: 60vw;
+	height: 130vh;
+    float : left;
+}
+
+.intro {
+	background-color:  rgb(255, 245, 243);
+}
+.main-project {
+	background-color : white;
+}
+.activities {
+	background-color: rgb(255, 245, 243) ;
+}
+
+.hobby {
+	background-color: white ;
+}
+.goals {
+	background-color:rgb(255, 245, 243) ;
+}
+
+.goals li {
+	font-size: 30px;
+	margin-top: 30px;
+	font-style: bold;
+}

@@ -127,7 +127,7 @@ a {
 .main-project{
 	padding: 12vh 10vw 0;
 	width: 60vw;
-	height: 150vh;
+	height: 200vh;
     float : left;
 }
 .activities{
@@ -155,7 +155,7 @@ a {
 }
 
 .intro .my_image {
-	margin: 70px auto 0;
+	margin: 20px auto 0;
 	/* width: 60px;	 */
     list-style:none;
 }
@@ -166,9 +166,13 @@ a {
 	text-align: center;
 }
 
+.intro .my_image li p {
+	font-size: 30px;
+}
+
 .activities  li {
     float: left;
-	margin-right: 200px;
+	margin-right: 150px;
 }
 .activities  li  p {
 	font-size: 30px;
@@ -180,6 +184,9 @@ a {
 .main-project {
 	background-color : white;
 }
+.main-project p {
+	font-size: 30px;
+}
 
 
 .activities {
@@ -188,6 +195,10 @@ a {
 
 .hobby {
 	background-color: white ;
+}
+.hobby p{
+	font-size: 30px;
+	
 }
 .goals {
 	background-color:rgb(255, 245, 243) ;
